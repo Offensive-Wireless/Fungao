@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  ## BetterCap
+  image: bettercap/bettercap
+  environment: 
+    - "IP_1=${IP_1}"
+  ## B33f
+  image: 
